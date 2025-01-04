@@ -32,10 +32,8 @@ public class App {
         System.out.println("\u001B[1m━━━━━━━━━━━━━━━━━━━ Converter ━━━━━━━━━━━━━━━━━━━\u001B[0m");
     }
 
-    public static String console() { // Method para mag display ng >>> bago mag type
-        Scanner sc = new Scanner(System.in);
+    public static void console() { // Method para mag display ng >>> bago mag type
         System.out.print("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"+CYAN+"\n>>> "+RESET);
-        return sc.nextLine();
     }
 
     public static boolean resetPrompt() { // Pang reset ng prompt para bumalik sa simula
